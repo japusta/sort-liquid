@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      // таргет делаем не слишком старым, чтобы браузер понимал async/Promise и т. п.
+      "target": "ES2020",
+  
+      // именно ES-модули (не CommonJS!)
+      "module": "ES2020",
+  
+      // разрешение модулей «по-узловому» (в браузере TS не нужен)
+      "moduleResolution": "node",
+  
+      "outDir": "./dist",      // все .js попадут в папку dist/
+      "rootDir": "./src",      // источник .ts лежит в src/
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"]
+  }
+  

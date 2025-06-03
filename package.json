@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --format=esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}
