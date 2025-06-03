@@ -4,7 +4,7 @@
 
 git clone https://github.com/japusta/sort-liquid.git
 
-Открытm index.html
+Открыть index.html
 
 Примеры работы 
 
