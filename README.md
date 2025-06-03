@@ -1,6 +1,10 @@
 Реализовал первое задание в виде игры. 
 
-Запуск через Открытие index.html
+Запуск
+
+git clone https://github.com/japusta/sort-liquid.git
+
+Открыть index.html
 
 Примеры работы 
 
@@ -8,3 +12,16 @@
 
 
 ![image](https://github.com/user-attachments/assets/607dddf1-7e25-4217-965f-855bd0dc0f90)
+
+в ветке oop-sort реализованная игра по принципам ООП На TypeScript.
+
+
+git clone https://github.com/japusta/sort-liquid.git
+
+npm install
+
+npx http-server -c-1
+
+открыть index.html в браузере
+
+запускал сервер так как при разработке возникли ошибки и я думал что проблема в браузере
